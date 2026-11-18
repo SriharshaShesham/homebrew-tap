@@ -18,8 +18,15 @@ brew install --cask pixlok
 Pixlok is free and not notarized by Apple. The cask removes the macOS quarantine flag after
 installing, so the app opens without the "could not verify" prompt.
 
-Pixlok was previously called Picsl. The old `picsl` cask is renamed to `pixlok`, so existing
-installs move to Pixlok on the next `brew update` / `brew upgrade`.
+Pixlok was previously called Picsl. If you have `picsl` installed, switch over once with:
+
+```sh
+brew update
+brew upgrade --cask SriharshaShesham/tap/pixlok
+```
+
+Homebrew only loads apps from third-party taps that you have named in full, so the plain
+`brew upgrade` can't do this step on its own. After the switch, it works as usual.
 
 ## Update
 
