@@ -1,35 +1,38 @@
-# Homebrew tap for Picsl
+# Homebrew tap for Pixlok
 
-[Picsl](https://github.com/SriharshaShesham/Picsl) is a fast, native image viewer for macOS.
+[Pixlok](https://github.com/SriharshaShesham/Pixlok) is a fast, native image viewer for macOS.
 
 ## Install
 
 ```sh
-brew install --cask SriharshaShesham/tap/picsl
+brew install --cask SriharshaShesham/tap/pixlok
 ```
 
 Or tap first, then install:
 
 ```sh
 brew tap SriharshaShesham/tap
-brew install --cask picsl
+brew install --cask pixlok
 ```
 
-Picsl is free and not notarized by Apple. The cask removes the macOS quarantine flag after
+Pixlok is free and not notarized by Apple. The cask removes the macOS quarantine flag after
 installing, so the app opens without the "could not verify" prompt.
+
+Pixlok was previously called Picsl. The old `picsl` cask is renamed to `pixlok`, so existing
+installs move to Pixlok on the next `brew update` / `brew upgrade`.
 
 ## Update
 
 ```sh
-brew upgrade --cask picsl
+brew upgrade --cask pixlok
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall --cask picsl
+brew uninstall --cask pixlok
 # also remove settings and caches:
-brew uninstall --zap --cask picsl
+brew uninstall --zap --cask pixlok
 ```
 
 ## Requirements
