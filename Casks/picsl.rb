@@ -1,6 +1,6 @@
 cask "picsl" do
-  version "1.0.0"
-  sha256 "dbbd16c68a6f01d0006fb879ccc741c18c9355d8eb8c9358d056928313dbd1dd"
+  version "1.0.1"
+  sha256 "f5c95caf8b33619b248626d0373484787b6cf603cd0f56f2376869e6c28fd198"
 
   url "https://github.com/SriharshaShesham/Picsl/releases/download/v#{version}/Picsl-#{version}.zip"
   name "Picsl"
