@@ -1,6 +1,6 @@
 cask "pixlok" do
-  version "1.1.0"
-  sha256 "c6d58f0dbffbaeea0cc7c0bffded5585f581446862bcfdb6417cdc8c310bca0d"
+  version "1.1.1"
+  sha256 "60e96050341952660b06be4390d7cddfb3c9249a04117c59f57b70cfac7a1b1b"
 
   url "https://github.com/SriharshaShesham/Pixlok/releases/download/v#{version}/Pixlok-#{version}.zip"
   name "Pixlok"
